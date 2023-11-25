@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Aryan Shukla</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://kit.fontawesome.com/69d727b4a3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  
+  <%- include('../include/navbar'); %>
+  <h1 class="text-center font">My Work</h1>
+    <hr class="line">
+    <div class="quote">
+      <h5>“Commit yourself to lifelong Learning. The most valuable asset you will ever have is your mind and what you put into it.”<br>  –  Albert Einstein</h5>
+    </div>
+    <hr class="line">
+  <div class = "padd container">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100">
+        <img src="/images/nuti.JPG" class="card-img-top" alt="...">
+        <div class="card-body card-color">
+          <h5 class="card-title">Nutriffin.Ai</h5>
+          <p class="card-text card-margin">Technology used: LWC, Apex, Trigger, Flow . Developed a fully working system to keep track of the nutrients required by the body.Used Validation Rules, Triggers, flows with proper relation among objects to achieve all functionalities. Created a dynamic dashboard to indicate key points to the user fetching all of the relative data</p>
+            <a class="text-alignment" target="_blank" href="https://github.com/AryanShukla13">more</a>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last update 5 days ago.</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100">
+        <img src="/images/face.JPG" class="card-img-top" alt="...">
+        <div class="card-body card-color">
+          <h5 class="card-title">Face Recognition based Attendance System</h5>
+          <p class="card-text card-margin">Technology used: Python, Tensorflow, Tkinter(UI) .Developed a fully automated Attendance Management System capable of detecting, recognizing, and making attendance.Implemented a feature that allows administrators to retrieve attendance data from a MySQL database and export it to MS
+            Excel.Achieved an accuracy of 95% for detecting and recognizing faces for attendance marking.o.
+          </p>
+          <a class="text-alignment" target="_blank" href="https://github.com/AryanShukla13">more</a>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last update 1 year ago.</small>
+        </div>
+      </div>
+    </div>
+    <div class="col ">
+      <div class="card h-100">
+        <img src="/images/project1.JPG" class="card-img-top" alt="...">
+        <div class="card-body card-color">
+          <h5 class="card-title">Order Summary</h5>
+          <p class="card-text card-margin">It display a summary of the customer's order before they confirm their purchase. It usually includes information such as the items or services ordered, the price of each item, the total price, and payment information.</p>
+          <a class="text-alignment" target="_blank" href="https://github.com/AryanShukla13">more</a>
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last update 2 years ago.</small>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<%- include('../include/footer') %>
+
+</body>
+</html>
